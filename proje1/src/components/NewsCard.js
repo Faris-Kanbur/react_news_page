@@ -15,6 +15,7 @@ export {NewsCard};
 
 const styles = StyleSheet.create({
   container: {
+    width: Dimensions.get('window').width /2,
     borderWidth: 1,
     borderColor: '#e0e0e0',
     padding: 5,
@@ -29,5 +30,6 @@ const styles = StyleSheet.create({
   image: {
     height: Dimensions.get('window').height * 0.3,
     borderRadius: 5,
+    resizeMode: 'center',
   },
 });
